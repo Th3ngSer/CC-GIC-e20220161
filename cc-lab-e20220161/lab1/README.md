@@ -81,7 +81,7 @@ I set it in the **Configure storage** section of the EC2 launch settings by chan
 
 ### 6. Challenge launch
 
-![Challenge launch](images/06-challlenge-launch.png)
+![Challenge launch](images/06-challenge-launch.png)
 
 ### 7. Challenge security group
 
@@ -89,7 +89,7 @@ I set it in the **Configure storage** section of the EC2 launch settings by chan
 
 ### 8. Challenge instances
 
-![Challenge instances](images/08-challenge-instances.png)
+![Challenge instances](images/08-challenge-instance.png)
 
 ### 9. Challenge terminal
 
