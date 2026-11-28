@@ -16,7 +16,7 @@ In this lab, I deployed a social media application on an Ubuntu EC2 instance and
 This submission includes:
 
 - `README.md`: Lab information, deployment summary, and screenshot evidence.
-- `Images/`: Screenshots required by the lab instructions.
+- `images/`: Screenshots required by the lab instructions.
 
 The lab was completed in the `us-east-1` region using the following resources:
 
@@ -51,47 +51,57 @@ Passwords, AWS access keys, secret keys, session tokens, database endpoints cont
 
 The security group allows SSH on port 22 and application traffic on ports 8000 and 5173.
 
-![Security Group](Images/01-Security_Group.png)
+![Security Group](images/01-security-group.png)
 
 ### 2. EC2 Instance Launch
 
 The EC2 instance `aws-database-options-lab-instance` is running with the required security group attached.
 
-![Running EC2 instance](Images/02-ec2-running.png)
+![Running EC2 instance](images/02-ec2-running.png)
 
 ### 3. S3 Bucket Creation
 
 The S3 bucket stores media files uploaded by the social media application.
 
-![S3 media bucket](Images/03-s3-media-bucket.png)
+![S3 media bucket](images/03-s3-bucket.png)
 
 ### 4. RDS DB Instance Creation
 
 The RDS MySQL instance `aws-dbo-sql` is available and provides the SQL database for post metadata.
 
-![RDS MySQL instance](Images/04-rds-mysql.png)
+![RDS MySQL instance](images/04-rds-sql.png)
 
 ### 5. Aurora DB Instance Creation
 
 The Aurora MySQL cluster `aws-dbo-aurora` is available with its database endpoint.
 
-![Aurora endpoint](Images/05-aurora-endpoint.png)
+![Aurora endpoint](images/05-aurora-cluster.png)
 
 ### 6. DynamoDB Table Creation
 
 The DynamoDB table `posts` is active and uses `post_id` as its partition key.
 
-![DynamoDB table](Images/06-dynamodb-table.png)
+![DynamoDB table](images/06-dynamodb-table.png)
 
 ### 7. Application Configuration and Testing
 
 The application was configured with the database services and tested through the EC2 public address on port 5173.
 
-![Application configuration and testing](<Images/07. Application-Configuration-and-Testing.png>)
+![Application configuration and testing](images/07-app-start.png)
 
 ### 8. Final Infrastructure
 
 The final infrastructure includes the EC2 instance, security group, S3 bucket, RDS database, Aurora database, and DynamoDB table.
 
-![Final infrastructure](<Images/08: Final-Infrastructure.png>)
+![Application in browser](images/08-app-browser.png)
+
+### 9. Final infrastructure
+
+The final infrastructure includes the EC2 instance, security group, S3 bucket, RDS database, Aurora database, and DynamoDB table.
+
+![Final infrastructure](images/09-final-infrastructure.png)
+
+### 10. Signup and post creation
+
+![Signup and post creation](images/10-signup-post.png)
 
