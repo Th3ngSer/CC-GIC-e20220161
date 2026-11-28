@@ -48,7 +48,7 @@ The following screenshots were taken during the lab:
 
 ### 2. Launch template security group
 
-![Launch template security group](images/02-sg-LaunchTemplateSecurity.png)
+![Launch template security group](images/02-sg-launch-template.png)
 
 ### 3. Target group
 
@@ -72,7 +72,7 @@ The following screenshots were taken during the lab:
 
 ### 8. Auto Scaling group list
 
-![Auto Scaling group list](images/08-asg-lists.png)
+![Auto Scaling group list](images/08-asg-list.png)
 
 ### 9. Auto Scaling group details
 
@@ -92,9 +92,9 @@ The following screenshots were taken during the lab:
 
 ### 13. Unhealthy target
 
-![Unhealthy target](images/13-targets-unhealthy.png)
+![Unhealthy target](images/13-target-unhealthy.png)
 
 ### 14. Replaced target
 
-![Replaced target](images/14-targets-replacd.png)
+![Replaced target](images/14-target-replaced.png)
 
